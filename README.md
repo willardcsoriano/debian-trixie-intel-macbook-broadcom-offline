@@ -66,8 +66,8 @@ The full package set is hosted on three platforms. All three contain identical f
 | Platform | Link | Notes |
 |---|---|---|
 | **Internet Archive** | https://archive.org/details/debian-trixie-macbook-broadcom-wifi-offline | Recommended. No size limits, permanent hosting, no account needed to download. |
-| **Hugging Face** | https://huggingface.co/buckets/unicornfacemask/debian-trixie-macbook-broadcom-wifi-offline | Fast CDN, good for large file downloads. |
-| **Zenodo** | https://zenodo.org/records/19414113 | Hosted by CERN. Assigns a permanent DOI, ideal for citation. |
+| **Hugging Face** | https://huggingface.co/buckets/unicornfacemask/debian-trixie-macbook-broadcom-wifi-offline-packages | Fast CDN, good for large file downloads. |
+| **Zenodo** | https://zenodo.org/records/19414495 | Hosted by CERN. Assigns a permanent DOI, ideal for citation. |
 
 > **Note on `linux-image-6.12.73+deb13-amd64`:** This file is 107MB and may be absent or separately listed on some platforms. If it is not included in a download, get it directly from the official Debian mirror:
 > ```
