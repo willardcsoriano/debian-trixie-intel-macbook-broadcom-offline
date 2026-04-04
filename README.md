@@ -70,8 +70,8 @@ The full package set is hosted on three platforms. All three contain identical f
 | Platform | Link | Notes |
 |---|---|---|
 | **Internet Archive** | https://archive.org/details/debian-trixie-macbook-broadcom-wifi-offline | Recommended. No size limits, permanent hosting, no account needed to download. |
-| **Hugging Face** | https://huggingface.co/datasets/unicornfacemask/debian-trixie-macbook-broadcom-wifi-offline | Fast CDN, good for large file downloads. |
-| **Zenodo** | *(add your Zenodo DOI link here once published)* | Hosted by CERN. Assigns a permanent DOI, ideal for citation. |
+| **Hugging Face** | https://huggingface.co/buckets/unicornfacemask/debian-trixie-macbook-broadcom-wifi-offline | Fast CDN, good for large file downloads. |
+| **Zenodo** | https://zenodo.org/records/19414113 | Hosted by CERN. Assigns a permanent DOI, ideal for citation. |
 
 > **Note on `linux-image-6.12.73+deb13-amd64`:** This file is 107MB and may be absent or separately listed on some platforms. If it is not included in a download, get it directly from the official Debian mirror:
 > ```
@@ -484,7 +484,7 @@ And substitute them for the ones in this collection. If you verify that a update
 
 If you reference this work, you can cite the Zenodo archive which carries a permanent DOI:
 
-*(add your Zenodo DOI here once published)*
+https://zenodo.org/records/19414113
 
 ---
 
