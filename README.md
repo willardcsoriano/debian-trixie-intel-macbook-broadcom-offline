@@ -1,4 +1,3 @@
-```markdown
 # Debian Trixie (13) on Intel MacBook — Complete Offline WiFi Bootstrap Kit
 
 **Status:** Verified Working — April 2026
