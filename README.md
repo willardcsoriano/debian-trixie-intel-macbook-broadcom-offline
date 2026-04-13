@@ -99,7 +99,7 @@ and you will never need to do this manually again.
 
 ## Compatibility
 
-| | |
+| Feature | Details |
 |---|---|
 | **Tested Hardware** | MacBook Air Mid-2015 (Intel Core i5, 8GB RAM) |
 | **Expected to work** | Most Intel MacBooks 2010–2019 with BCM43xx WiFi |
