@@ -1,8 +1,28 @@
-# Debian Trixie (13) on Intel MacBook — Complete Offline WiFi Bootstrap Kit
+# Debian Linux on Intel MacBook — Complete Offline WiFi Bootstrap Kit
 
-**Status:** Verified Working — April 2026  
-**Maintained by:** Willard  
-**Target Hardware:** Intel MacBooks (2012–2019) with Broadcom BCM43xx WiFi  
+**Status:** Verified Working — April 2026
+**Maintained by:** Willard
+**Target Hardware:** Intel MacBooks (2010–2019) with Broadcom BCM43xx WiFi
+**OS to be installed:** Debian GNU/Linux 13 (Trixie)
+**Why migrate?** macOS Monterey — the last macOS version supporting most
+Intel MacBooks — reached end of life on September 16, 2024 when Apple
+released Sequoia. Security updates have stopped. Monterey also consumes
+~4GB RAM at idle, leaving little headroom for actual work on 8GB machines.
+Debian Trixie uses a fraction of that idle RAM and will receive security
+updates for years to come.
+
+---
+
+## Verified Test Environment
+
+| | |
+|---|---|
+| **Machine** | Apple MacBookAir7,2 (Mid-2015, 13-inch) |
+| **CPU** | Intel Core i5-5350U @ 1.80GHz (2 cores, 4 threads, up to 2.9GHz) |
+| **RAM** | 8GB |
+| **Storage** | 221GB SSD |
+| **Architecture** | amd64 (64-bit) |
+| **WiFi Chip** | Broadcom BCM43xx |
 
 ---
 
@@ -41,11 +61,18 @@ leaving very little headroom for actual work. With Apple having
 officially ended support for this machine, the only path forward was
 a full OS migration.
 
-Debian Trixie was chosen for its stability, package freshness, and
-long-term support. This repository documents everything that was needed
-to bridge the gap between a working Debian install and a working
-internet connection — a gap that turns out to be surprisingly wide on
-MacBook hardware due to Broadcom's proprietary WiFi chips.
+Debian Trixie was chosen for one simple reason: RAM. macOS Monterey
+consumes roughly 4GB of RAM at idle on this hardware, leaving almost
+nothing available for actual work on an 8GB machine. Debian Trixie at
+idle uses under 500MB. That is the entire motivation.
+
+Stability, package freshness, and long-term support are welcome
+bonuses — but the real reason is that this machine became genuinely
+unusable under macOS and completely usable again under Debian. This
+repository documents everything that was needed to bridge the gap
+between a working Debian install and a working internet connection —
+a gap that turns out to be surprisingly wide on MacBook hardware due
+to Broadcom's proprietary WiFi chips.
 
 If you found this repository by searching for how to install Debian
 Trixie on an Intel MacBook, or how to get WiFi working on Debian
